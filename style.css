@@ -1,0 +1,194 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #2f281e;
+    font-family: 'Poppins', sans-serif;
+    background: #fff7f8;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Poppins', sans-serif;
+    color: #2f281e;
+}
+
+h1 {
+    font-size: 43px;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.celebrate {
+    position: relative;
+    margin-top: 70px;
+}
+
+.title2
+{
+    font-weight:400;
+    margin-top:10px
+}
+
+.border-lines {
+    border-top: 2px dashed gray;
+    margin-top: 5px;
+}
+
+.celebrate img {
+    width: 65px;
+    margin-top: -50px;
+    background: #fff7f8;
+    padding: 10px;
+}
+
+.t1 {
+    position: absolute;
+    width: 130px;
+    right: 0px;
+    top: 30px;
+}
+
+.t2 {
+    position: absolute;
+    width: 130px;
+    left: 0px;
+    top: 30px;
+}
+
+
+.img-fluid {
+    width: 100%;
+    float: left;
+}
+
+.div-left {
+    width: 40%;
+    float: left;
+}
+
+    .div-left img {
+        padding: 10px;
+    }
+
+.div-right {
+    width: 60%;
+    float: left;
+}
+
+.div-right-details {
+    background: #1d1838;
+    padding: 26px;
+    margin: 11px;
+}
+
+    .div-right-details h2 {
+        color: #e2a4af;
+        font-size: 40px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    .div-right-details h3 {
+        color: white;
+        font-size: 26px;
+        margin: 0px;
+        background: #32abe1;
+        display: inline-block;
+        padding: 0px 10px;
+        margin-bottom: 15px;
+        font-weight: 300;
+    }
+
+    .div-right-details h4 {
+        color: orange;
+        font-size: 40px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-name: date;
+    }
+
+@keyframes date {
+    0% {
+        color: orange;
+    }
+
+    50% {
+        color: #f2e6d2;
+    }
+}
+
+.div-right-details p {
+    color: white;
+    margin-top: 5px;
+}
+
+.page-btn {
+    background: #c94f4d;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 12px 27px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    width: 180px;
+    height: 25px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+
+    .page-btn:hover {
+        width: 210px;
+        background: #e1dcdc;
+        color: #111;
+    }
+
+
+.main {
+    animation-name: change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size:50px;
+    margin-bottom:0px
+}
+
+@keyframes change {
+    0% {
+        color: #222;
+    }
+
+    25% {
+        color: #d33636;
+    }
+
+    50% {
+        color: #1565c0;
+    }
+
+    100% {
+        color: #5c9b61;
+    }
+}
